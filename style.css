@@ -7,7 +7,6 @@
 
 body {
     text-align: center;
-    justify-items: center;
     background-image: url('./images/background.jpg');
 }
 
@@ -101,6 +100,6 @@ button {
     h1,
     button,
     .box {
-        width: 95%;
+        width: 95% !important;
     }
 }
