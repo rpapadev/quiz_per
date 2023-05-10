@@ -99,6 +99,7 @@ button {
 
 @media screen and (max-width: 768px) {
     h1,
+    button,
     .box {
         width: 95%;
     }
