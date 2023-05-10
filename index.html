@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Mukta:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div>
+    <h1>Teste seu conhecimento!</h1>
+  </div>
+  <div class="box">
+    <div class="question">
+      <h2>Qual é o planeta mais próximo do Sol?</h2>
+    </div>
+    <div class="options">
+      <label><input type="radio" name="answer1" value="a"> Vênus<br></label>
+      <label><input type="radio" name="answer1" value="b"> Terra<br></label>
+      <label><input type="radio" name="answer1" value="c"> Marte<br></label>
+      <label><input type="radio" name="answer1" value="d"> Mercúrio<br></label>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="question">
+      <h2>Quem pintou a Mona Lisa?</h2>
+    </div>
+    <div class="options">
+      <label><input type="radio" name="answer2" value="a"> Pablo Picasso<br></label>
+      <label><input type="radio" name="answer2" value="b"> Leonardo da Vinci<br></label>
+      <label><input type="radio" name="answer2" value="c"> Vincent van Gogh<br></label>
+      <label><input type="radio" name="answer2" value="d"> Salvador Dalí<br></label>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="question">
+      <h2>Qual é a montanha mais alta do mundo?</h2>
+    </div>
+    <div class="options">
+      <label><input type="radio" name="answer3" value="a"> Monte Everest<br></label>
+      <label><input type="radio" name="answer3" value="b"> Monte Kilimanjaro<br></label>
+      <label><input type="radio" name="answer3" value="c"> Monte Everest<br></label>
+      <label><input type="radio" name="answer3" value="d"> Monte McKinley<br></label>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="question">
+      <h2>Quem escreveu a obra "Dom Quixote"?</h2>
+    </div>
+    <div class="options">
+      <label><input type="radio" name="answer4" value="a"> Miguel de Cerveja<br></label>
+      <label><input type="radio" name="answer4" value="b"> Miguel de Cervantes<br></label>
+      <label><input type="radio" name="answer4" value="c"> William Shakespeare<br></label>
+      <label><input type="radio" name="answer4" value="d"> Johann Wolfgang von Goethe<br></label>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="question">
+      <h2>Qual é o maior oceano do mundo?</h2>
+    </div>
+    <div class="options">
+      <label><input type="radio" name="answer5" value="a"> Oceano Pacífico<br></label>
+      <label><input type="radio" name="answer5" value="b"> Oceano Atlântico<br></label>
+      <label><input type="radio" name="answer5" value="c"> Oceano Índico<br></label>
+      <label><input type="radio" name="answer5" value="d"> Oceano Ártico<br></label>
+    </div>
+  </div>
+
+  <div class="box">
+    <div class="question">
+      <h2>Quem descobriu a gravidade?</h2>
+    </div>
+    <div class="options">
+      <label><input type="radio" name="answer6" value="a"> Galileu Galilei<br></label>
+      <label><input type="radio" name="answer6" value="b"> Isaac Newton<br></label>
+      <label><input type="radio" name="answer6" value="c"> Albert Einstein<br></label>
+      <label><input type="radio" name="answer6" value="d"> Nikola Tesla<br></label>
+    </div>
+  </div>
+
+  <button onclick="checkAnswers()">Verificar Respostas!</button>
+  <div class="result"></div>
+  <div class="message"></div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

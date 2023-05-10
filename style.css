@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+body {
+    text-align: center;
+    justify-items: center;
+    background-image: url('./images/background.jpg');
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    border: solid 3px rgb(108, 30, 180);
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(108, 30, 180);
+}
+
+.box {
+    border: solid 3px black;
+    border-radius: 10px;
+    width: 50%;
+    margin: 40px auto;
+}
+
+.question {
+    margin-bottom: 10px;
+    border: solid 3px black;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px auto;
+    font-size: 25px;
+    background-color: white;
+}
+.options {
+    margin-bottom: 10px;
+    border: solid 3px black;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px auto;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+label, 
+input {
+    cursor: pointer;
+}
+
+.result {
+    font-weight: bold;
+}
+
+.correct {
+    color: white;
+    background-color: green;
+    font-weight: bold;
+}
+
+.incorrect {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+}
+
+button {
+    font-size: 40px;
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(4, 0, 255);
+    color: white;
+    font-weight: bold;
+}
+
+.message,
+.result {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(108, 30, 180);
+    font-family: 'Lobster', cursive;
+}
+
+@media screen and (max-width: 768px) {
+    h1,
+    .box {
+        width: 95%;
+    }
+}
